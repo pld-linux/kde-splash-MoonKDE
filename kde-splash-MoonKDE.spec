@@ -18,10 +18,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"MoonKDE" KDE splash screen.
+Full moon over some mysterious lake. Very nice piece of graphics :)
 
 %description -l pl
-Ekran startowy KDE "MoonKDE".
+Pe³nia ksiê¿yca nad brzegiem tajemniczego jeziorka. Bardzo ³adny
+kawa³ek grafiki :)
 
 %prep
 %setup -q -n %{_splash}
