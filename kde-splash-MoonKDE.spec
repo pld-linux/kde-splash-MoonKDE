@@ -2,7 +2,7 @@
 %define		_splash		MoonKDE
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	0.2
 Release:	2
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Full moon over some mysterious lake. Very nice piece of graphics :)
 
-%description -l pl
-Pe³nia ksiê¿yca nad brzegiem tajemniczego jeziorka. Bardzo ³adny
-kawa³ek grafiki :)
+%description -l pl.UTF-8
+PeÅ‚nia ksiÄ™Å¼yca nad brzegiem tajemniczego jeziorka. Bardzo Å‚adny
+kawaÅ‚ek grafiki :)
 
 %prep
 %setup -q -n %{_splash}
